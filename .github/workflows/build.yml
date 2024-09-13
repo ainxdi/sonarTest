@@ -35,4 +35,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=RashmiNirasha_UCSC_SE_Lec_97d598fa-064a-45b2-89be-2c43e6299915 -Dsonar.projectName='UCSC_SE_Lec'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ainxdi_sonarTest_f72941f1-55d7-4a6d-92ca-3b1851c925b0 -Dsonar.projectName='sonarTest'
